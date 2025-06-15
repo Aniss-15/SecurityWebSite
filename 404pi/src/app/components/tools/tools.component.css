@@ -1,0 +1,46 @@
+.tool-section {
+  padding: 80px 20px;
+  background-color: #0b0b0b;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+.tool-section h2 {
+  font-size: 3em;
+  color: #00ff99;
+  margin-bottom: 20px;
+}
+
+.tool-section p.description {
+  font-size: 1.25em;
+  color: #ccc;
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+}
+
+.tool-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.tool-card {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  box-shadow: none;
+  transition: transform 0.3s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-5px);
+}
+
+.tool-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+}

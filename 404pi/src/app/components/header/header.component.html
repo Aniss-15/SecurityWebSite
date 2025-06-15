@@ -1,0 +1,19 @@
+<nav class="kraken-navbar">
+  <div class="navbar-content">
+    <div class="logo-section">
+   <img src="assets/Test.png" class="logo" alt="Logo" style="width: 100px; height: 100px;">   
+   </div>
+
+    <ul class="nav-links">
+        <li><a href="#" (click)="onAboutClick()">About Us</a></li>
+      <li><a href="#" (click)="onServicesClick()">Services</a></li>
+      <li><a routerLink="/partners" routerLinkActive="active">Partners</a></li>
+      <li><a href="#" (click)="toolsClicked.emit()">Tools</a></li>
+            <li><a href="#" (click)="onTeamClick()">Team</a></li>
+
+    </ul>
+
+    <a routerLink="/contact" class="contact-btn">Contact Us</a>
+  </div>
+  <div class="bottom-border"></div>
+</nav>

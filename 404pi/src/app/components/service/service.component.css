@@ -1,0 +1,136 @@
+.service-section {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 80px 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.service-header {
+  max-width: 200px;
+  margin-bottom: 60px;
+}
+
+.service-header h2 {
+  font-size: 2em;
+  color: #00ff99;
+  margin-bottom: 20px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+  justify-content: space-between;
+}
+
+.service-card {
+  background-color: #111;
+  border: 1px solid #00ff99;
+  border-radius: 12px;
+  padding: 30px;
+  flex: 1 1 30%;
+  min-width: 280px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.service-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #00ff99;
+}
+
+.service-header {
+  max-width: 900px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+  font-size: 1.2em;
+  color: #ddd;
+}
+
+.service-header h2 {
+  font-size: 3em;
+  color: #00ff99;
+  margin-bottom: 20px;
+}
+
+.service-header p {
+  font-size: 1.25em;
+  line-height: 1.7;
+  margin-top: 20px;
+}
+
+/* Workflow card section */
+.workflow-title {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2.5em;
+  color: #00ff99;
+}
+
+.workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
+  margin-top: 40px;
+  justify-items: center;
+}
+
+.workflow-card {
+  background-color: transparent;      /* plus de fond sombre */
+  border: none;                       /* plus de bordure verte */
+  border-radius: 0;                   /* plus d'arrondi */
+  padding: 0;                         /* plus de padding */
+  box-shadow: none;                   /* plus d’ombre */
+  transition: none;
+  max-width: unset;
+}
+
+.workflow-card:hover {
+  transform: translateY(-5px);
+}
+
+.workflow-card img {
+  width: 100%;
+  max-height: 540px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.workflow-card h4 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #00ff99;
+}
+
+.workflow-card p {
+  font-size: 0.95em;
+  color: #ccc;
+}
+.workflow-card video {
+  width: 100%;
+  max-height: 440px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.workflow-description {
+  text-align: center;
+  font-size: 1.4em;
+  color: #ccc;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}

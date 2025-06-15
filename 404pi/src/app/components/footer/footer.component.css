@@ -1,0 +1,27 @@
+.site-footer {
+  background-color: #020047;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  border-top: 2px solid #00ff99;
+}
+
+.footer-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #00ff99;
+  margin-bottom: 10px;
+}
+
+.footer-address {
+  font-size: 1em;
+  color: #ccc;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.footer-copy {
+  font-size: 0.9em;
+  color: #888888;
+}

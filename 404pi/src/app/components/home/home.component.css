@@ -1,0 +1,117 @@
+.about-section {
+  background-color: #000;
+  color: white;
+  padding: 100px 60px;
+  font-family: 'Quicksand', sans-serif;
+  background-image: radial-gradient(rgba(0, 255, 0, 0.05) 1px, transparent 1px),
+                    radial-gradient(rgba(0, 255, 0, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-side {
+  flex: 1 1 50%;
+  max-width: 600px;
+}
+
+.text-side h1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.text-side .highlight {
+  color: #00ff00;
+}
+
+.text-side p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.text-side .call a {
+  color: #00ff00;
+  text-decoration: underline;
+}
+
+.image-side {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-side img {
+  width: 180%;           /* ou fixe avec max-width: 500px par exemple */
+  max-width: 900px;     /* limite de largeur maximale */
+  height: auto;         /* garde les proportions */
+  border-radius: 100px;  /* coins arrondis (optionnel) */
+}
+
+.partner-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  padding: 20px 40px;
+  border-top: 4px solid linear-gradient(to right, #00ff00, #ff00ff); /* tu peux personnaliser */
+}
+
+.partner-logos img {
+  max-height: 40px;
+  margin: 10px 20px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.partner-logos img:hover {
+  filter: grayscale(0%);
+}
+
+.logo-carousel-wrapper {
+  background: white;
+  padding: 20px 0;
+  overflow: hidden;
+  position: relative;
+  border-top: 4px solid #00ff99; /* bordure fluide style Kraken */
+}
+
+.logo-carousel {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-track {
+  display: inline-block;
+  animation: scroll-logos 30s linear infinite;
+}
+
+.logo-track img {
+  height: 120px;
+  margin: 0 40px;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.logo-track img:hover {
+  filter: grayscale(0%);
+}
+
+@keyframes scroll-logos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

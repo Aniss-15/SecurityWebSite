@@ -1,0 +1,12 @@
+<app-header 
+  (servicesClicked)="showServices()" 
+  (aboutClicked)="showAboutUs()" 
+  (toolsClicked)="showTools()" 
+  (teamClicked)="showTeam()">
+</app-header>
+<app-home #homeRef></app-home>
+<app-tools></app-tools>
+<app-team></app-team>
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>
